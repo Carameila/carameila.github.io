@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1em 2em;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav-item {
+    min-width: 80px;
+    text-align: center;
+    padding: 0.2em 0.1em;
+}
+
+.nav-centre {
+    border-right: 1px solid black; 
+    border-left: 1px solid black;
+}
+
+section#home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-form{
+    display: flex;
+}
+
+.element {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.circle {
+    border: 1px solid gray;
+    max-width: 1.2em;
+    border-radius: 50%;
+    text-align: center;
+    background: gray;
+    padding: 0.2em;
+}
+
+.form {
+    background: lightgray;
+    border-radius: 10%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 1em;
+    border-radius: 10%;
+    background: red;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
