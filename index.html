@@ -35,11 +35,38 @@
       </section>
       <section class="main-form">
         <div class="element left">
-          <img
-            src="assets/boymart.png"
-            alt="Boy Supermarket"
-            class="boymart"
-          />
+          <div>
+            <img src="assets/boymart.jpeg" alt="Boy Supermarket" class="boymart" />
+            <img src="assets/myboy.png" alt="Boy Supermarket" class="boymart" />
+            <img src="assets/yumm.jpg" alt="Boy Supermarket" class="boymart" />
+          
+          </div> 
+
+          <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs((slideIndex += n));
+            }
+
+            function showDivs(n) {
+              var i;
+              var imgList = document.getElementsByClassName("boymart");
+              if (n > imgList.length) slideIndex = 1;
+              else if (n < 1) slideIndex = imgList.length;
+
+              for (i = 0; i < imgList.length; i++) {
+                imgList[i].style.display = "none";
+              }
+
+              imgList[slideIndex - 1].style.display = "block";
+            }
+            setInterval(() => {
+              plusDivs(1);
+            }, 1000);
+          </script>
+
           <i class="dialog">"setiap hari beli sayur buah yang fresh disini"</i>
           <div class="profile">
             <img class="pp" src="assets/profile.png" alt="profile" />
