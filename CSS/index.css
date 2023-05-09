@@ -348,6 +348,7 @@ label {
     font-size: 22px;
     letter-spacing: 1px;
     color: rgb(59, 71, 84);
+    margin: 0;
 }
 
 .bottommom {
@@ -355,6 +356,7 @@ label {
     font-size: 22px;
     letter-spacing: 1px;
     color: rgb(59, 71, 84);
+    margin: 0;
 }
 
 .topkid {
@@ -455,3 +457,27 @@ label {
     text-align: center;
     align-items: center;
 }
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.hh {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
