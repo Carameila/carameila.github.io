@@ -18,7 +18,10 @@
 .nav-item {
     min-width: 80px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 10px 12px;
+    display: flex;
 }
 
 .nav-centre {
@@ -91,6 +94,7 @@ a {
     font-size: 37px;
     font-family: "Microsoft YaHei";
     justify-content: center;
+    display: flex;
     letter-spacing: 2px;
     color: rgb(59, 71, 84);
     margin-top: 50px;
@@ -231,6 +235,8 @@ label {
 .top-left {
     margin-left: 50px;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .sep {
@@ -481,3 +487,52 @@ label {
     padding-bottom: 50px;
 }
 
+.body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 480px) {
+    .top-left {
+        margin-left: 0;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 10px;
+        margin-left: 20px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-centre {
+        border-top: 2px solid black; 
+        border-bottom: 2px solid black;
+        border-left: 0;
+        border-right: 0;
+    }
+    .first {
+        font-size: 25px;
+    }
+    .second {
+        font-size: 20px;
+    }
+    .boymart {
+        max-width: 350px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .dialog {
+        margin-left: 0;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    }
+  
