@@ -523,7 +523,7 @@ label {
         font-size: 20px;
     }
     .boymart {
-        max-width: 900px;
+        max-width: 350px;
         margin-left: 0;
         margin-right: 0;
         display: flex;
@@ -549,6 +549,22 @@ label {
         align-items: center;
         align-content: center;
         margin-bottom: 50px;
+        width: 260px;
+    }
+
+    .fill {
+        width: 300px;
+        height: 25px;
+    }
+
+    .fill2 {
+        height: 70px;
+        width: 322px;
+    }
+
+    .btn {
+        height: 70px;
+        width: 322px;
     }
   
     .main-form {
